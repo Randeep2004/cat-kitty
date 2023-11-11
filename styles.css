@@ -1,0 +1,47 @@
+body {
+    margin: 0 0 0 0;
+    font-size: 3vh ;
+    background: rgb(202, 218, 232);
+}
+ body >header > h1{
+    font-size: 2em;
+    font-weight: 700;
+    color:yellow;
+    background: rgb(253, 199, 208);
+    margin-top: 1vh;
+    margin: 2vh 20vw 0 20vw;
+    padding: 0.5vh auto;
+    border-radius: 20px;
+    text-align: center;
+
+ }
+header > nav > h2 {
+font-size: 1.6em;
+font-weight: 400;
+color: rgb(166, 221, 240);
+background: navy;
+margin: 5vh 10vw 2vh 10vw;
+padding:0.5vh auto;
+text-align: center;
+border-radius: 20px;
+background: navy;
+
+
+}
+main > div {
+    display: flex;
+ margin:15vh auto;
+ justify-content: space-between;
+}
+
+
+main > div > .img1 , .img2 , .img3 {
+    display: flex;
+    align-items: center;
+    margin: 15vh 3vw 0 3vw;
+    margin-top: 15vh;
+    max-height: 50vh;
+max-width: 45vw;
+border: 10px gold!important ;
+
+}
